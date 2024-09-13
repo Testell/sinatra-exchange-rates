@@ -6,6 +6,8 @@ ruby "3.2.1"
 gem "sinatra"
 gem "sinatra-contrib"
 
+gem 'http', '~> 3.0'
+
 # Use Puma as the app server
 gem "puma", "~> 5.0"
 
